@@ -14,7 +14,7 @@
 
 env:
   node: true
-#  es6: true
-#extends:
-#  - google
-root: true
+  es6: true
+extends:
+  - google
+root: false
