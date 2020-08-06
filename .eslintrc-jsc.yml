@@ -17,6 +17,7 @@ extends:
 rules: { 
   no-var: 0, 
   quotes: [0, "double"], 
-  indent: ["error", 2]
+  indent: [0, 2], 
+  space-before-function-paren: [0, "always"]
 }
 
