@@ -16,6 +16,7 @@ extends:
   - google
 rules: { 
   no-var: 0, 
-  quotes: [0, "double"]
+  quotes: [0, "double"], 
+  indent: ["error", 2]
 }
 
