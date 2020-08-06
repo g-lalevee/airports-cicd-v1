@@ -25,6 +25,7 @@ const limitParam = context.getVariable('request.queryparam.limit');
 
 var filtered = allAirports;
 
+
 if (countryParam && countryParam.length > 0) {
   filtered = filtered.filter(
       (airport) => airport.country.toLowerCase() === countryParam
