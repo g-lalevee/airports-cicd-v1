@@ -16,8 +16,9 @@ extends:
   - google
 rules: { 
   no-var: 0, 
-  quotes: [0, "double"], 
-  indent: [0, 2], 
-  space-before-function-paren: [0, "always"]
+  quotes: 0,
+  indent: 0,
+  space-before-function-paren: 0,
+  object-curly-spacing: 0
 }
 
