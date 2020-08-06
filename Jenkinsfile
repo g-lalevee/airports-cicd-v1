@@ -42,11 +42,11 @@ pipeline {
           }
         }
 
-        stage('Static Code Analysis') {
-          steps {
-            sh "mvn validate"
-          }
-        }
+      //  stage('Static Code Analysis') {
+      //    steps {
+      //      sh "mvn validate"
+      //    }
+      //  }
 
         stage('Unit Test') {
           steps {
