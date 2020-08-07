@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "apickli": "^2.3.3",
-    "apigeelint": "^0.4.3",
+    "apigeelint": "^0.4.8",
     "cucumber": "^6.0.5",
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
