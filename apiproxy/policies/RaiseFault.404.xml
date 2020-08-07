@@ -17,6 +17,7 @@
 <RaiseFault name="RaiseFault.404">
     <FaultResponse>
         <Set>
+        
             <StatusCode>404</StatusCode>
             <ReasonPhrase>The requested resource {proxy.pathsuffix} was not found.</ReasonPhrase>
             <payload contentType="application/json">
