@@ -12,9 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# env:
+#   node: true
+#   es6: true
+# extends:
+#   - google
+# root: true
+
 env:
   node: true
   es6: true
 extends:
   - google
+  - prettier
 root: true
