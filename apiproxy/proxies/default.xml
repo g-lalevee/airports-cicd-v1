@@ -20,7 +20,7 @@
     <Response>
       <Step>
         <Condition>(proxy.pathsuffix Matches "/airports*") AND (request.verb = "GET")</Condition>
-        <Name>AssignMessage.AirportsMock</Name>
+        <Name>AirportsMock</Name>
       </Step>
     </Response>
   </PreFlow>
